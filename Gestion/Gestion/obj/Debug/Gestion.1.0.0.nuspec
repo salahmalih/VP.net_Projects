@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Gestion</id>
+    <version>1.0.0</version>
+    <authors>Gestion</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Guna.UI2.WinForms" version="2.0.4" exclude="Build,Analyzers" />
+        <dependency id="System.Data.OleDb" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\hp\source\repos\Gestion\Gestion\obj\Debug\net6.0-windows\ar\Gestion.resources.dll" target="lib\net6.0-windows7.0\ar\Gestion.resources.dll" />
+    <file src="C:\Users\hp\source\repos\Gestion\Gestion\bin\Debug\net6.0-windows\Gestion.runtimeconfig.json" target="lib\net6.0-windows7.0\Gestion.runtimeconfig.json" />
+    <file src="C:\Users\hp\source\repos\Gestion\Gestion\bin\Debug\net6.0-windows\Gestion.dll" target="lib\net6.0-windows7.0\Gestion.dll" />
+  </files>
+</package>

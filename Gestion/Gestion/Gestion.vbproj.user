@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Arrivee\ajouter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Depart\AjouterDepart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Arrivee\edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Depart\editDepart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Employer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login\Adminvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gestion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
